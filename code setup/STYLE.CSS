@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+    
+body{
+background: linear-gradient(90deg, hsla(239, 94%, 35%, 1) 0%, hsla(245, 73%, 14%, 1) 100%);
+
+ /*background: -moz-linear-gradient(90deg, hsla(239, 94%, 35%, 1) 0%, hsla(245, 73%, 14%, 1) 100%);
+
+ background: -webkit-linear-gradient(90deg, hsla(239, 94%, 35%, 1) 0%, hsla(245, 73%, 14%, 1) 100%);
+ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0507AD", endColorstr="#0E0A3F", GradientType=1 );
+    /*background-color:rgb(34, 34, 194);*/
+    width:90%;
+    margin:12px;
+    display:grid;
+    align-items:center;
+    justify-content: center;
+}
+h2{
+    color:dodgerblue;
+    text-align:center;
+}
+.navbar{
+    display:flex;
+    justify-content:space-between;
+     margin-bottom:90px;
+     background-color:rgb(13, 10, 48);
+     background: linear-gradient(90deg, rgb(36, 39, 228) 0%, rgb(7, 2, 59) 100%);
+     padding:8px;
+     border-radius:8px;
+}
+
+.tier1{
+    font-weight:bold;
+    color:azure;
+}
+
+.ancor{
+    display:flex;
+     justify-content:space-between;
+     gap:10px;
+     font-size:10px;
+     font-weight:bold;
+}
+
+ a{
+    text-decoration: none;
+    color:rgb(243, 238, 229);
+}
+img{
+    width:370px;
+}
+.btn-span{
+    background-color:rgb(255, 30, 0);
+    padding:10px;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+main{
+display:flex;
+justify-content:space-between;
+margin-bottom:50px;
+}
+
+.advert{
+    color:azure;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main p{
+    color:azure;
+    margin:10px 0px;
+}
+/*main button{
+    padding:5px;
+    margin:10px 0px;
+    background-color:rgb(255, 30, 0);
+    border:none;
+    border-radius:10px;
+    color:azure;
+    margin-bottom:40px;
+}*/
+
+footer{
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px;
+    justify-content:space-between;
+    gap:5px;
+    color:azure;
+    float:bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

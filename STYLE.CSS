@@ -1,0 +1,25 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+    
+body{
+background: linear-gradient(90deg, hsla(239, 94%, 35%, 1) 0%, hsla(245, 73%, 14%, 1) 100%);
+}
+
+img{
+    width:370px;
+}
+
+
+footer{
+    display:grid;
+    grid-template-columns:100px 100px 100px 100px 100px 100px;
+    justify-content:space-between;
+    gap:5px;
+    color:azure;
+    float:bottom;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
